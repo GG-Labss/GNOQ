@@ -2,13 +2,28 @@ ion-header {
     ion-toolbar {
         div {
             display: flex;
-            padding: 10px;
+            padding: 5px;
             align-items: center;
             justify-content: space-between;
             background-color: black;
             color: white;
+            font-family: 'JetBrains Mono';
             #logo {
-                width: 30%;
+                width: 50%;
+            }
+            ion-buttons {
+                gap: 10px;
+                .router-link-active {
+                    border-bottom: 2px solid #299CE1;
+                }
+                ion-button {
+                    font-size: 15px;
+                    font-family: 'JetBrains Mono';
+                    border-bottom: solid black 2px;
+                }
+                ion-button:hover {
+                    border-bottom: solid #299CE1 2px;
+                }
             }
         }
     }

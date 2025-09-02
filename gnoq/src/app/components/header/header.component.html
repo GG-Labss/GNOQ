@@ -5,7 +5,10 @@
         <img id="logo" src="assets/images/horizontal.png" alt="GNOQ">
       </div>
       <ion-buttons>
-        <ion-button>início</ion-button>
+        <ion-button [routerLink]="['/home']" routerLinkActive="router-link-active"  >início</ion-button>
+        <ion-button [routerLink]="['/sobre']" routerLinkActive="router-link-active" >sobre</ion-button>
+        <ion-button [routerLink]="['/clientes']" routerLinkActive="router-link-active" >clientes</ion-button>
+        <ion-button [routerLink]="['/contato']" routerLinkActive="router-link-active"  >contato</ion-button>
       </ion-buttons>
     </div>
   </ion-toolbar>
