@@ -1,0 +1,7 @@
+{
+  "name": "gnoq",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
